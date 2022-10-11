@@ -29,7 +29,7 @@ The dataset is divided into five training batches and one test batch, each with 
 ### Get the size of a directory
     du -sh folder_path
 ### Randomly select 100 files from a directory and copy them to another directory
-    shuf -zn8 -e *.jpg | xargs -0 cp -vt target/
+    shuf -zn100 -e *.jpg | xargs -0 cp -vt target/
 
     Here,
     shuf: shuffles the list of *.jpg files in the current directory.
